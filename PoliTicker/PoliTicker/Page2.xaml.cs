@@ -29,8 +29,8 @@ namespace PoliTicker
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Bio.Text = Globals.number.ToString();
-            Globals.number += 1;
+            //Bio.Text = Globals.number.ToString();
+            //Globals.number += 1;
         }
 
         private void gotoVoting(object sender, RoutedEventArgs e)
@@ -40,6 +40,7 @@ namespace PoliTicker
 
         private void Bio_Loaded(object sender, RoutedEventArgs e)
         {
+            /*
             if (Globals.number > 10 && Globals.number < 20)
             {
                 Bio.Text = "lol";
@@ -55,7 +56,7 @@ namespace PoliTicker
                 }
 
                 Bio.Text = Bio.Text + i.ToString();
-            }
+            }*/
         }
 
         private void PercentageLoaded(object sender, RoutedEventArgs e)
@@ -72,4 +73,4 @@ namespace PoliTicker
             VoteCount.Text = "Number of Votes: " + (Globals.nysGovNeg + Globals.nysGovPos).ToString();
         }
     }
-}
+} 

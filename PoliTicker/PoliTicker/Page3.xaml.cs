@@ -28,7 +28,9 @@ namespace PoliTicker
 
         private void ClickedUp(object sender, RoutedEventArgs e)
         {
-            if(Globals.hasVoted == 1)
+
+            if (Globals.hasVoted == 1) {
+            if(Globals.hasVotedg == 1)
             {
                 return;
             }
@@ -53,13 +55,43 @@ namespace PoliTicker
                     return;
                 }
             }
-
             Upvote.Source = pics;
+            }
+            else if (Globals.hasVoted == 2)
+            {
+                if (Globals.hasVotedm == 1)
+                {
+                    return;
+                }
+
+                BitmapImage pics;
+
+                if (Globals.upCheckedm == 1)
+                {
+                    pics = new BitmapImage(new Uri("greythumbu.png", UriKind.Relative));
+                    Globals.upCheckedm = 0;
+                }
+
+                else
+                {
+                    if (Globals.downCheckedm == 0)
+                    {
+                        pics = new BitmapImage(new Uri("thumbup.png", UriKind.Relative));
+                        Globals.upCheckedm = 1;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                Upvote.Source = pics;
+            }
         }
 
         private void ClickedDown(object sender, RoutedEventArgs e)
         {
-            if (Globals.hasVoted == 1)
+            if (Globals.hasVoted == 1) { 
+            if (Globals.hasVotedg == 1)
             {
                 return;
             }
@@ -84,24 +116,64 @@ namespace PoliTicker
                     return;
                 }
             }
-
             Downvote.Source = pics;
+        }
+            else if (Globals.hasVoted == 2)
+            {
+                if (Globals.hasVotedm == 1)
+                {
+                    return;
+                }
+
+                BitmapImage pics;
+
+                if (Globals.downCheckedm == 1)
+                {
+                    pics = new BitmapImage(new Uri("greythumbd.png", UriKind.Relative));
+                    Globals.downCheckedm = 0;
+                }
+
+                else
+                {
+                    if (Globals.upCheckedm == 0)
+                    {
+                        pics = new BitmapImage(new Uri("thumbdown.png", UriKind.Relative));
+                        Globals.downCheckedm = 1;
+                    }
+                    else
+                    {
+                        return;
+                    }
+                }
+                Downvote.Source = pics;
+            }
 
         }
 
         private void CheckSubmission(object sender, RoutedEventArgs e)
         {
-            if(Globals.hasVoted == 1)
+            if(Globals.hasVoted == 1){
+            if(Globals.hasVotedg == 1)
             {
                 SubmitButton.Content = "Thank You for Your Comment!";
                 return;
+            }
+        }
+            else if (Globals.hasVoted == 2)
+            {
+                 if(Globals.hasVotedm == 1)
+            {
+                SubmitButton.Content = "Thank You for Your Comment!";
+                return;
+            }
             }
 
         }
 
         private void Submission(object sender, RoutedEventArgs e)
         {
-            if(Globals.hasVoted == 1)
+            if (Globals.hasVoted == 1) {
+            if(Globals.hasVotedg == 1)
             {
                 return;
             }
@@ -111,7 +183,7 @@ namespace PoliTicker
                 return;
             }
 
-            Globals.hasVoted = 1;
+            Globals.hasVotedg = 1;
             SubmitButton.Content = "Thank You for Your Comment!";
             Globals.nysGovMsg = NewComment.Text;
             NewComment.IsReadOnly = true;
@@ -123,22 +195,60 @@ namespace PoliTicker
             {
                 Globals.nysGovNeg = Globals.nysGovNeg + 1;
             }
+        }
+            else if (Globals.hasVoted == 2)
+            {
+                if (Globals.hasVotedm == 1)
+                {
+                    return;
+                }
 
+                if (Globals.upCheckedm == 0 && Globals.downCheckedm == 0)
+                {
+                    return;
+                }
+
+                Globals.hasVotedm = 1;
+                SubmitButton.Content = "Thank You for Your Comment!";
+                Globals.nycMayorMsg = NewComment.Text;
+                NewComment.IsReadOnly = true;
+                if (Globals.upCheckedm == 1)
+                {
+                    Globals.nycMayPos = Globals.nycMayPos + 1;
+                }
+                else
+                {
+                    Globals.nycMayNeg = Globals.nycMayNeg + 1;
+                }
+            }
         }
 
         private void checkForComment(object sender, RoutedEventArgs e)
         {
-            if(Globals.hasVoted == 1)
+            if (Globals.hasVoted == 1)
             {
-                NewComment.Text = Globals.nysGovMsg;
-                NewComment.IsReadOnly = true;
+                if (Globals.hasVotedg == 1)
+                {
+                    Globals.hasVotedg = 1;
+                    NewComment.Text = Globals.nysGovMsg;
+                    NewComment.IsReadOnly = true;
+                }
+            }
+            if (Globals.hasVoted == 2)
+            {
+                if (Globals.hasVotedm == 1)
+                {
+                    Globals.hasVotedm = 1;
+                    NewComment.Text = Globals.nycMayorMsg;
+                    NewComment.IsReadOnly = true;
+                }
             }
         }
 
         private void LoadComments(object sender, RoutedEventArgs e)
         {
             int i = 1;
-            foreach (Comment stuff in Globals.nysGovComments)
+            foreach (Comment stuff in Globals.chosenComments)
             {
                 BitmapImage pics;
 
@@ -176,6 +286,8 @@ namespace PoliTicker
         }
         private void UpvoteLoaded(object sender, RoutedEventArgs e)
         {
+
+            if (Globals.hasVoted == 1) { 
             if(Globals.upChecked == 1)
             {
                 if (Globals.hasVoted == 0)
@@ -188,18 +300,51 @@ namespace PoliTicker
                 }
             }
         }
-
-        private void DownvoteLoaded(object sender, RoutedEventArgs e)
-        {
-            if (Globals.downChecked == 1)
+            else if (Globals.hasVoted == 2)
             {
-                if (Globals.hasVoted == 0)
+                if(Globals.upCheckedm == 1)
+            {
+                if (Globals.hasVotedm == 0)
                 {
-                    Globals.downChecked = 0;
+                    Globals.upCheckedm = 0;
                 }
                 else
                 {
-                    Downvote.Source = new BitmapImage(new Uri("thumbdown.png", UriKind.Relative));
+                    Upvote.Source = new BitmapImage(new Uri("thumbup.png", UriKind.Relative));
+                }
+            }
+        }
+
+            }
+
+        private void DownvoteLoaded(object sender, RoutedEventArgs e)
+        {
+            if (Globals.hasVoted == 1)
+            {
+                if (Globals.downChecked == 1)
+                {
+                    if (Globals.hasVoted == 0)
+                    {
+                        Globals.downChecked = 0;
+                    }
+                    else
+                    {
+                        Downvote.Source = new BitmapImage(new Uri("thumbdown.png", UriKind.Relative));
+                    }
+                }
+            }
+            else if (Globals.hasVoted == 2)
+            {
+                if (Globals.downCheckedm == 1)
+                {
+                    if (Globals.hasVotedm == 0)
+                    {
+                        Globals.downCheckedm = 0;
+                    }
+                    else
+                    {
+                        Downvote.Source = new BitmapImage(new Uri("thumbdown.png", UriKind.Relative));
+                    }
                 }
             }
         }

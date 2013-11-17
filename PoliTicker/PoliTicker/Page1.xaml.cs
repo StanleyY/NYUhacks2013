@@ -19,12 +19,16 @@ namespace PoliTicker
 
         private void gotoGovernor(object sender, RoutedEventArgs e)
         {
+            Globals.chosenComments = Globals.nysGovComments;
+            Globals.hasVoted = 1;
             this.NavigationService.Navigate(new Uri("/Page2.xaml", UriKind.Relative));
         }
 
         private void gotoMayor(object sender, RoutedEventArgs e)
         {
-            //this.NavigationService.Navigate(new Uri("/Page4.xaml", UriKind.Relative));
+            Globals.chosenComments = Globals.nysMayorComments;
+            Globals.hasVoted = 2;
+            this.NavigationService.Navigate(new Uri("/Page4.xaml", UriKind.Relative));
         }
 
     }

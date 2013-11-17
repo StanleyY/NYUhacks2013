@@ -1,21 +1,27 @@
-﻿<xapCache source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Bin\Debug\PoliTicker_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="11/17/2013 5:32:41 AM">
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\PoliTicker.dll" archivePath="PoliTicker.dll" lastWriteTime="11/17/2013 5:32:40 AM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/16/2013 4:44:07 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\greythumbd.png" archivePath="greythumbd.png" lastWriteTime="11/17/2013 12:21:07 AM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\greythumbu.png" archivePath="greythumbu.png" lastWriteTime="11/17/2013 12:09:51 AM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\nycmayor.jpg" archivePath="nycmayor.jpg" lastWriteTime="11/16/2013 11:22:17 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\nys.png" archivePath="nys.png" lastWriteTime="11/16/2013 6:51:09 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\nysgovernor.jpg" archivePath="nysgovernor.jpg" lastWriteTime="11/16/2013 11:22:24 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\nyssenator1.jpg" archivePath="nyssenator1.jpg" lastWriteTime="11/16/2013 11:22:20 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\nyssenator2.jpg" archivePath="nyssenator2.jpg" lastWriteTime="11/16/2013 11:22:27 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\thumbdown.png" archivePath="thumbdown.png" lastWriteTime="11/17/2013 12:21:11 AM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\thumbup.png" archivePath="thumbup.png" lastWriteTime="11/16/2013 11:22:49 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/16/2013 4:44:09 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/16/2013 8:24:37 PM" />
-  <file source="c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/16/2013 9:56:02 PM" />
+﻿<xapCache source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\PoliTicker_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="11/17/2013 9:06:37 AM">
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\obj\Debug\PoliTicker.dll" archivePath="PoliTicker.dll" lastWriteTime="11/17/2013 9:06:37 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\greythumbd.png" archivePath="greythumbd.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\greythumbu.png" archivePath="greythumbu.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\nycmayor.jpg" archivePath="nycmayor.jpg" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\nys.png" archivePath="nys.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\nysgovernor.jpg" archivePath="nysgovernor.jpg" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\nyssenator1.jpg" archivePath="nyssenator1.jpg" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\nyssenator2.jpg" archivePath="nyssenator2.jpg" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\thumbdown.png" archivePath="thumbdown.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\thumbup.png" archivePath="thumbup.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/17/2013 5:51:32 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/17/2013 5:50:06 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/17/2013 5:50:06 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/17/2013 5:50:06 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/17/2013 5:50:06 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/17/2013 5:50:05 AM" />
+  <file source="C:\Users\stanl_000\Desktop\PoliTicker\PoliTicker\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/17/2013 6:08:30 AM" />
 </xapCache>
