@@ -22,14 +22,14 @@
 
         <!--TitlePanel contains the name of the application and page title-->
         <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Text="Governor" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+            <TextBlock Text="Andrew Cuomo" FontSize="66" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Image HorizontalAlignment="Left" Height="165" VerticalAlignment="Top" Width="134" Margin="10,0,0,0" Source="nysgovernor.jpeg"/>
+            <Image HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Margin="10,26,0,0" Source="nysgovernor.jpg"/>
         </Grid>
-        <Rectangle x:Name="Approval_Rating" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="279" Margin="176,24,0,0" Grid.Row="1" RenderTransformOrigin="0.5,0.5">
+        <Rectangle x:Name="Approval_Rating" HorizontalAlignment="Left" Height="37" Stroke="Black" VerticalAlignment="Top" Width="279" Margin="189,26,0,0" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Loaded="Approval_OnLoad">
             <Rectangle.Fill>
                 <LinearGradientBrush x:Name ="stuff" StartPoint="0,0.5" EndPoint="1,0.5" MappingMode="RelativeToBoundingBox">
                     <GradientStop x:Name="p1" Color="Green" Offset="0.5"/>
@@ -37,15 +37,12 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <TextBlock x:Name="ApprovalText" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="190,66,0,0" Grid.Row="1" Height="102" Width="247" FontSize="24">
-        	<Run Text="Approval Rating : 50%"/>
-        	<LineBreak/>
-        	<Run Text="Number of Votes:"/>
-        	<LineBreak/>
-        	<Run Text="Tap Here to Vote"/>
-        </TextBlock>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Andrew Cuomo is the 56th Governor of New York. He previously served as the United States Secretary of Housing and Urban Development from 1997 to 2001, and as the Attorney General of New York from 2007 to 2010. He is a member of the Democratic Party, and the son of Mario Cuomo, the 52nd Governor of New York." VerticalAlignment="Top" Margin="36,229,0,0" Grid.Row="1" Height="343" Width="376"/>
+        <TextBlock x:Name="ApprovalPercentage" Text="Approval Percentage" Margin="189,99,74,466" Grid.Row="1" Loaded="PercentageLoaded"/>
+        <TextBlock x:Name="VoteCount" Text="Number of Votes: " Margin="189,121,74,444" Grid.Row="1" Loaded="CountVotes" FontSize="20"/>
+        <TextBlock x:Name="ApprovalText" Text="Tap Here to Vote" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="189,143,0,0" Grid.Row="1" Height="47" Width="223" FontSize="24"/>
+        <TextBlock x:Name="Bio" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Andrew Cuomo is the 56th Governor of New York. He previously served as the United States Secretary of Housing and Urban Development from 1997 to 2001, and as the Attorney General of New York from 2007 to 2010. He is a member of the Democratic Party, and the son of Mario Cuomo, the 52nd Governor of New York." VerticalAlignment="Top" Margin="36,229,0,0" Grid.Row="1" Height="343" Width="376" Loaded="Bio_Loaded" />
         <Button Content="More Info" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="128,482,0,0" Grid.Row="1" Height="102" Width="171" Click="Button_Click"/>
+        <Button Name="VotingNavigation" Style="{StaticResource ButtonStyle1}" Content="" BorderThickness="0" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,10,0,0" Grid.Row="1" Height="200" Width="307" Click="gotoVoting"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

@@ -22,9 +22,9 @@ namespace PoliTicker
             this.NavigationService.Navigate(new Uri("/Page2.xaml", UriKind.Relative));
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void gotoMayor(object sender, RoutedEventArgs e)
         {
-
+            //this.NavigationService.Navigate(new Uri("/Page4.xaml", UriKind.Relative));
         }
 
     }

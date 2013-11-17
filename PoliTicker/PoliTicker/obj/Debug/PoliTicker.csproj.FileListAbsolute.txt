@@ -19,3 +19,5 @@ c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\o
 c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\XapCacheFile.xml
 c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\Page1.g.cs
 c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\Page2.g.cs
+c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\Page3.g.cs
+c:\users\stanl_000\documents\visual studio 2013\Projects\PoliTicker\PoliTicker\obj\Debug\Page4.g.cs
